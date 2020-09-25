@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Lucas Carbone">
+    <title>Carbone</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+ <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   element.classList.toggle("dark-mode-menu");
+}
+</script> 
+
+<div id="wrapper">
+      <div id="header">
+        <div id="logo">
+          <h1><span style="color: white;">carbone</span></h1>
+        </div>
+        <div id="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Calculadora</a></li>
+            <li class="last"><a href="contato">Contato</a></li>
+            <li> <a onclick="myFunction()">Modo Claro/Escuro</a></li>
+          </ul>
+          <br class="clearfix">
+        </div>
+      </div>
+      <div id="splash"> <img src="images/pic01.jpg" alt="" height="230" width="930">
+      </div>
+      <div class ="dark-mode-menu" id="page">
+        <div id="content">
+          <div class="post">
+            <h2>bem vindo ao meu site</h2>
+            <p>Este site foi feito para a análise do Profª Eduardo Ono para a 1°
+              prova do quarto semestre de Análise e desenvolvimento de sistemas,
+              na faculdade do Unisal.</p>
+          </div>
+          <div class="post post-last">
+            <h3>um pouco sobre mim...</h3>
+            <p>Sou técnico em informática concluído na instituição Salesiano São
+              José, por um programa chamado CPDB. Onde me deu a possibilidade de
+              trabalhar dando aula em uma ONG. Após, entre no Senac através de
+              um processo, onde me abriu portas para realizar este curso no
+              Unisal. Trabalho até hoje no Senac e estou bem contente, tenho
+              planos para crescer professinalmente dentro desta instituição.</p>
+            <p><br>
+            </p>
+            <h3 id="contato">Minha redes sociais</h3>
+            <p></p>
+            <ul class="list">
+              <li class="first"><a href="https://www.facebook.com/lucas.carbone.g"target="_blank">Facebook</a></li>
+              <li><a href="https://www.instagram.com/lucascarbone_/"target="_blank">Instagram</a></li>
+              <li><a href="https://twitter.com/lucascarbone_"target="_blank">Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/lucas-carbone-2aa766134/"target="_blank">LinkedIn</a></li>
+        
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
