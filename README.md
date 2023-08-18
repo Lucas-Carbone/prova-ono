@@ -1,5 +1,4 @@
-# Projeto desenvolvido para uma prova da matéria em desenvolvimento de sistemas
-# Graduação em Análise e desenvolvimento de sistemas
+# Projeto desenvolvido para uma prova da matéria de programação dentro da grade na graduação em Análise e desenvolvimento de sistemas
 
 Utilizando as linguagens:
 
